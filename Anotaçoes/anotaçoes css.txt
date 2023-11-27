@@ -1,0 +1,73 @@
+CLASSES: Atribuimos um nome a nossa classe, infromamos as propriedades de formatação CSS, e depois aplicamos o atributo 'class' a tag html que queremos formatar
+A CLASSE TEM SUPERIORIDADE AO ELEMENTO CRU
+POSSUI HIERARQUIA/ CASCATA
+/*DESIGN PATTERNS É UM PADRÃO DE DESENVOLVER ALGO*/
+#ATOMIC DESIGN
+ATOMO - MOLECOLAS - ORGANISMO
+
+CRIADO PELO BRAD FROST
+/*SINTAXES*/
+
+width=largura
+
+max-width para nao transpassar
+
+height=altura
+
+float= para ficar flutuando
+
+background-color= mudar cor do fundo
+
+margin=0 para tirar a margem ou coloca, usar para centralizar ou algo do tipo
+margin:100px auto 0 auto economizar linha ...
+
+padding cria um espaço entre o elemento como se fosse uma borda
+
+display: block, table,table-cell,inline adapta a tela em diferente telas quando tem 2 elementos pai e filho, ex display box o navegador junca um com o outro
+display table e tem o tamanho de acordo com a quantidade de elementos
+display block e alinha um em baixo do outro
+display inline-block um do lado do outro sem juntar
+
+border-radius= arredondar as bordas
+
+box-shadow= colocar sombra
+ 
+ float:left alinha lado a lado
+ 
+ text-transform: uppercase; coloca em maiuscula
+ 
+ text-decoration: none; tira o underline
+ 
+ box-sizing:border-box coloca qualquer borda pra dentro
+ clear bloqueia elementos flutuando
+
+/*TERMINA SINAXTE*/
+BOA PRATICAS: 
+começar sempre com o font-family
+/*WEB SAFE FONTS SÃO AS FONTES QUE É RECONHECIDA POR QUALQUER NAVEGADOR*/
+/*PRINCIPAIS SITES QUE MANTEM REPOSITORIOS DE WEB FONTS SÃO:*/
+GOOGLE FONTS
+ADOBE EDGE FONTS
+TYPEKIT
+FONT SQUIRREL
+
+/* CORES NA WEB*/
+FORMATO RGB = .txt-verde{color:rgb(51,204,102);} 24 bit color
+
+formato hexdecimal = .txt-verde{color:#64dd89;} 24 bit color
+
+formato hexa abreviado = .txt-verde{color:#3c6;} 12 bit color
+
+html colors e browser colors name = .txt-laranja{color:orange;}
+
+/*PARA LINKAR UM FOLHA CSS:*/
+<link rel="stylesheet" type="text/css" href="style.css"
+
+para faze uns row degrade background: linear-gradient(
+    195deg,
+    rgba(240,98,146,1)0%,
+   rgba(221,89,133,1)98%>
+
+
+
+

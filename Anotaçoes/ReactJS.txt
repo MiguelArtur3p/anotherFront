@@ -1,0 +1,64 @@
+npx create-react-app
+npm creat vite@latest
+npm install json-server
+npm install json-server react-icons icones do react
+
+.map() tipo um foreach {items.map((item)=>(
+            
+           ))}  todo metodo .map se tiver uma div precisa de uma key
+
+os html dentro do react é chamado de jsx
+1- NÃO PODE TER 2 ELEMENTOS PAI
+
+templateexpres da pra usar JS dentro do jsx(html)
+
+eventos de escutar algo ex(onClick)
+
+tag class é = className
+html=htmlFor
+
+Hooks, o mais usado é UseStates()
+useEffect (()=>{
+});
+  useEffect(()=>{
+
+  },[]) o segundo parametro [] quando ta vazio é executado quando a pagina carrega
+
+renderização condicional
+
+condicição 
+{x>5 &&}
+
+props, componentes aceitando propriedades
+
+fragment serve para trabalhar com varios elementos sem o elemento pai sintaxe <></>
+
+childre: const Container =({children})=>{
+    return <div className="container">{children}</div>
+}
+
+json server 
+    "server": "json-server --watch data/db.json --port 5000"
+
+
+const handleSubmit = (e)=>{
+        e.preventDefault();
+
+  } o e ali serve para não parar a aplicação
+
+
+e.target.value setar o valor do target no value do input
+
+controler input type="text" name="title" placeholder='Título da tarefa' onChange={(e)=>setTitle(e.target.value)} value={title}/>
+
+
+FETCH
+  await fetch(API+"/todos",{
+      method:"POST",
+      body:JSON.stringify(todo),
+      headers:{
+        "Content-Type": "application/json",
+      }
+    });
+
+prevState     setTodos((prevState)=>[...prevState,todo]) atualizar os dados da pagina sem atualizar a pagina

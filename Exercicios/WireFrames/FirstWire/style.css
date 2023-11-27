@@ -1,0 +1,50 @@
+.header-container{
+    text-align: center;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: baseline;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+main{
+    margin:60px auto;
+    background-color: bisque;
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+.left-container{
+    text-align: center;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.img-teste{
+    flex-basis: 50%;
+    background-color: grey;
+}
+.bottom-container{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    margin: 60px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around;
+
+}
+.my-items{
+    height: 90%;
+    background-color: grey;
+    flex-basis: 23%;
+}

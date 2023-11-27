@@ -1,0 +1,48 @@
+ESTRUTURA DE UM HTML
+<html>
+
+<head>
+<\head>
+
+<body>
+
+<header>
+<\header>
+<main>
+</main>
+
+<footer>
+<\footer>
+</body>
+
+TAGS:
+<h1> é pra titulo, não usar <h1> dentro de um paragrafo por causa da hierarquia
+<p> é usado para paragrafo
+<span> para almentar a fonte sem usar o <h1>
+<div> é um bloco vazio sem formatação, é uma tag hibrida, que geralmente é utilizada para se criar blocos de layout
+<aside> é uma tag de layout introduzida na html 5
+<header><\header>= barra do topo
+<main> não sei ainda me parece uma box
+<a href=""></a> colocar link
+
+SEMÂNTICA - QUAL TAG EU USO E PRA QUÊ?
+ 
+ 
+
+TIPOS DE LAYOUT WEB
+Estrutura e forma que sera apresentado na tela 
+1- Fixo - possui medidas fixas
+2- Fluído - os elemetnos se redimensionam através de %, porém, sem considerar a resolução da tela do dispositivo
+3- Responsivo - os elementos se redimensionam e se agrupam de formas diferentes de acordo com a resolução de tela, fazendo com que a experiencia de nageçao seja otimizada para cada resolução
+4- Orgânico - não existe uma grid fixa e os elemtnos são espalhados de maneira organica pelo layout, de mode que cada pagina possui uma diagramção diferente sem estar limitado à colunas.
+5- material - mais realista, com sombras
+
+GRIDS, ajuda das estruturaçoes do layout
+divide em 12 colunas- por padrão os frameworks trazem seus sitemas de grid dividio em 12 colunas, mas caso precise é possivel dividr em mais 
+as colunas do bootstrap tem que estar dentro de uma row e se possivel dentro de um container
+container-fluid fica em 100%
+
+quando vc n usar as 12 colunas, a row precisar estar com justify-content-center
+
+FLEXBOX
+PERMITE CRIAR UMA BOX CONTAINER QUE DEIXA PASSAR PARA OS ELEMENTOS FILHOS OUTRAS PROPRIEDADES CSS DE ORGANIZAÇÃO DE LAYOUT

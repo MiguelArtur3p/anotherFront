@@ -1,0 +1,40 @@
+media query é uma módulo do css que nos permite determinar estilos especificis de um html para determinar mídia.
+também nos permite definir um intervalo ou um ponto de partida (breakpoint) para que um conjunto de estilos possar ser aplicado à um elemento html.
+
+@media only screen and(min-width:554px){
+	.titulo-section{
+		font-family:arial;
+		....
+	}
+} 
+
+FLEXBOX
+PERMITE CRIAR UMA BOX CONTAINER QUE DEIXA PASSAR PARA OS ELEMENTOS FILHOS OUTRAS PROPRIEDADES CSS DE ORGANIZAÇÃO DE LAYOUT
+
+flex-direction: row|row-reverse | column| column-reverse
+quando vc não define o flex-direction ele subentende que deve ser um row (lado a lado na msm linha)
+row-reverse joga pra direita na ordem oposta
+column um em baixo do outro, ocupando todo espaço disponivel
+column-reverse
+os elementos filhos se não forem configurado eles sempre ocupa o max de espaço do elemento pai
+flex-wrap |wrap reverse:é meio que é uma quebra de linha, é declarada no container
+
+flex-flow forma de usar wrap e direction 
+
+flex-basis: calcular o tamanho dos elementos dentro da row
+
+justify-content:tbm vai no container, alinha os items sempre na direção escolhida, tem o start, center e end
+space-between= espaço entre
+space-around= espaço em volta como se foçe um margin
+space-evenly=começa com espaço dps elemento
+
+align-item:"start, center" ele alinha no sentido contrario do flex-direction
+base-line alinha pelo texto
+align-content alinha quando tem + de 1 coluna 
+
+ORDER: order permite reordernar os elementos dentro de um container
+
+flex-grow: usa para crescer um elemento no espaço disponivel
+flex-shrink: encolhe o item, precisa que as somas dos elementos que estão dentro do container precisa ser maior
+flex: flex-grow | flex-shrink | flex-basis forma resumida de escrever os 3
+align-self, permite pegar 1 elementos em uma linha e alinha ele da forma que quiser,alinha no eixo perperdincular
