@@ -1,0 +1,27 @@
+CSS:
+margin{
+o margin-bloack-start é referent ao bloco
+}
+
+display:grid{
+grid: column define qual coluna o obj vai estar, pode espandir um obj tbm, usando o / ex1/2
+place-content é um atalho
+grid-template-columns:define quantidade de colunas e tamanho usar fr em vez de %
+gap, criar uma margens nos itens
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML:

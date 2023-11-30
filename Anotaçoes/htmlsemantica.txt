@@ -1,0 +1,14 @@
+uma div não tem valor semantico
+
+<main> marca o conteudo principal
+<nav> marca um bloco de navegação(lista de links)
+<article> representa uma região do site que é atuoexplicativa(não precisa do restante do site para fazer sentido).Geralmente dee conter um titulo(h's)
+<section>só deve ser usada para "juntar" elementos que tenham alguma relação de contexto entre si
+<aside> é usado para marcar conteúdo complementar ao principal do site
+
+<ul> marca uma lista de itens sem ordem(unordered list). cada item da lista deve ser marcado com uma <li></li>
+<dl> lista de definição e usa o <dt> <dd>. ex <dl><dt>Quais os meios de pagamentos> <dd> dinheiro e cartao
+
+<q> serve quando vai colocar uma frase de um autor diferente
+<cite> sitação de obra filmes etc
+<em> para da enfase
