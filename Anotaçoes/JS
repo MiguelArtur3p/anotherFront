@@ -1,0 +1,68 @@
+Manipular o DOM (Document Object Model):[
+Remover elementos, adicionar classes, modificar conteúdo e mais.
+Seleciona o primeiro elemento que encontrar, com base no argumento passado. O argumento é similar aos seletores CSS, dentro de aspas.
+
+.Quais elementos serão observados/modificados?
+1.1como selecionar uma lista de itens?
+1.2 como selecionar um item?
+
+.Quais elementos serão observados?
+2.1 como adicionar um evento de click a uma lista de itens?
+.Quais informaçoes dos elementos/browser precisamos?
+
+3.1 como pegar a url de um elemento?
+.Quais informações dos elementos/browser serão alteradas?
+4.1 como alterar o url de um elemento?
+
+]
+ex: document.querySelector('.classe tag');
+https://developer.mozilla.org/en-US/docs/Web/API/Element documentação
+(retorna um objeto do tipo Element. Esse objeto possui diferentes métodos e propriedades que permitem manipularmos o mesmo.
+.innerText
+.innerHTML: retorna oque esta dentro
+.href: retorna a url
+.dir:mostra as propriedades e metodos que aql navegação possui
+.style.backgroundColor="black";
+.style.padding="1rem";
+.classList.add('ativo');
+.getAtrribute(...);
+const parametros=new URLSearchParams( location.search); pegar os parametros da pesquisa
+.prepend coloca o obj acima  onde eu selecionei a galeria
+  matchMedia('(min-width:1000px)').matches;
+
+
+para strings .includes para verifica se tem ou nao o meu parametro
+Puxar Dados Externos(API's)
+
+
+Variáveis
+[
+const= não é possivel redefinir 
+let=
+]
+
+METODOS É UMA FUNÇÃO DENTRO DE UM OBJ, FUNÇÃO É DIFERENTE
+
+EVENTOS[
+Podemos adicionar funções que serão executadas caso um evento ocorra. O evento ocorre no documento inteiro ou no elemento do dom. Usamos o método addEventListener para adicionar eventos.
+para aparecer algumas propriedades pode usar o 
+/** @param {MouseEvent} event  */
+
+.currentTarget evento adicionado
+const ativar = document.querySelector('.ativar');
+function ativarAoClick(event){
+  console.log(event);
+}
+console.log(ativar);
+
+ativar.addEventListener('click',ativarAoClick);
+
+
+]
+
+comparação === !== 
+
+Bolean();
+
+foreach[
+imgs.forEach(function (item) {
